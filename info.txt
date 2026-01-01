@@ -1,0 +1,6 @@
+Each user has a bucket with a fixed capacity and tokens refill at a constant rate.
+
+For every request,
+    I calculate token refill based on elapsed time and allow the request only if a token is available.
+    In distributed systems,
+        this can be backed by Redis using atomic operations or Lua scripts.
