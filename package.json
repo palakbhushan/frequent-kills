@@ -1,0 +1,13 @@
+{
+  "name": "in-memory-rate-limiter",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
